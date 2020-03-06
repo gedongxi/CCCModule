@@ -1,0 +1,26 @@
+#! /bin/bash
+ROOT=$(cd "$(dirname "${0}")"; pwd)
+## 检出或者更新依赖的其他git仓库
+
+#res
+if [ ! -d "$ROOT/assets/resources/res" ]; then
+  cd $ROOT/assets/resources && git clone git@git.dayukeji.com:H5-Crack/crack-client-res.git res
+else 
+  cd $ROOT/assets/resources/res && git pull 
+fi
+
+#config
+if [ ! -d "$ROOT/assets/resources/config" ]; then
+  cd $ROOT/assets/resources    && git clone git@git.dayukeji.com:H5-Crack/crack-client-config.git config
+else
+  cd $ROOT/assets/resources/config && git pull 
+fi
+
+#config-vo
+if [ ! -d "$ROOT/assets/script/config/vo" ]; then
+  cd $ROOT/assets/script/config && git clone git@git.dayukeji.com:H5-Crack/crack-client-config-vo.git vo
+else
+  cd $ROOT/assets/script/config/vo && git pull
+fi
+
+

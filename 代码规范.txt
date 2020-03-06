@@ -1,0 +1,170 @@
+============================
+文件头部注释
+/*
+* Author
+* Date:
+* Desc:
+*/
+
+
+============================
+关于注释
+
+1)函数注释:
+//: 只有一行
+
+/*
+*
+*/: 多行注释
+
+2)函数内部注释: 
+ 
+ 统一放在代码的上面一行
+ // 我是一行注释
+ const tNumAbc: number = 0;
+
+
+============================
+获取配置
+import * as ConfigVO from "../../ConfigVo"
+
+ConfigVO.Equip.get()
+
+
+
+============================
+静态单例
+get方法: INSTANCE
+单例的实例:singleInstance
+
+
+
+============================
+文件夹一定是小写:
+abc 或者 abc-def   最好是一个单词
+
+============================
+挂载到节点的脚本名字
+继承自BaseComponent cc.Component 或者 他们的子类
+如 SelectServerComp
+
+继承自BasePanel 或者 他们的子类
+如：FriendPanel
+
+继承自BassUI 或者 他们的子类
+如：MainTownUI
+
+
+
+
+============================
+对于编辑器中元素，请使用如下规则添加控件
+Sprite      -> sprXXX
+Label       -> labXXX
+Prefab      -> pfbXXX
+Node        -> nodXXX
+Layout      -> layXXX
+ScrollView  -> scvXXX
+Button      -> btnXXX
+EditBox     -> edbXXX
+ProgressBar -> pgbXXX
+
+对于脚本中关联的变量 即为通过@property
+命名和编辑器声明的一样
+
+基本类型简写
+number  --> num
+bool    --> is
+string  --> str
+array   --> arr
+any     --> obj
+
+=========================================
+脚本中的成员变量
+
+number类型的变量  -> mNumStep
+bool类型的变量    -> mIsMoving
+string类型的变量  -> mStrChatContent
+array类型的变量   -> mArrMapTile
+
+
+对于自定义类型
+1) 接口
+ IMapRender  ->   mIMapRender
+ IMapAI      ->   mIMapAI
+ 
+2) 类型
+ MapTile     ->   mMapTileXXX
+
+3) 枚举 Enum
+ EMapTile     ->   mEMapTileXXX
+
+=========================================
+脚本中的静态变量 
+public
+	number类型的变量  -> NumStep
+	bool类型的变量    -> IsMoving
+	string类型的变量  -> StrChatContent
+	array类型的变量   -> ArrMapTile 
+非public
+	number类型的变量  -> numStep
+	bool类型的变量    -> isMoving
+	string类型的变量  -> strChatContent
+	array类型的变量   -> arrMapTile 
+ 
+=========================================
+函数参数
+number类型的变量  -> pNumStep
+bool类型的变量    -> pIsMoving
+string类型的变量  -> pStrChatContent
+array类型的变量   -> pArrMapTile
+ 
+  // 切换逻辑
+  private switchServer(pNumIndex: number) {
+    const tNumServerId: number = this.mArrServerId[numIndex];
+    // 通知LoginUI进行切换服务器的逻辑显示
+    EventUtil.Dispatcher.emit(Events.EVENT_LOGIN_SWITCH_SERVER, tNumServerId);
+    // 关闭选服界面
+    this.close();
+  } 
+ 
+ 
+函数如果有返回值加上返回类型 
+ 
+
+静态方法
+ public  
+ private SwitchServer(pNumIndex: number)
+ 
+========================================= 
+UI响应回调函数命名
+onBtnXXXXXX
+
+服务器协议回调函数名字
+onRespXXXXXX
+
+ 
+ 
+=========================================
+脚本中的非成员变量 即为函数运算中
+
+number类型的变量  -> tNumStep
+bool类型的变量    -> tIsMoving
+string类型的变量  -> tStrChatContent
+array类型的变量   -> tArrMapTile
+
+对于自定义类型
+1) 接口
+ IMapRender     ->   tIMapRender
+ IMapAI         ->   tIMapAI
+ 
+2) 类型
+ MapTile        ->   tMapTileXXX
+  
+3) 枚举 Enum
+ EMapTile       ->   tEMapTileXXX
+ 
+
+
+
+
