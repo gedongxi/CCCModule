@@ -1,0 +1,83 @@
+{
+"key": [0],
+"cols": ["id","count","reward","res"],
+"vals": [
+  [
+    1,
+    1,
+    [{"vigor":60}],
+    [{"desc_id":25000},{"img":"share_3"},{"desc_id":25001},{"img":"share_4"}]
+  ],
+  [
+    2,
+    0,
+    [{"gem":15}],
+    [{"desc_id":25002},{"img":0}]
+  ],
+  [
+    3,
+    0,
+    [],
+    [{"desc_id":25003},{"img":"share_kefu"},{"desc_id":25004},{"img":"share_kefu"}]
+  ],
+  [
+    4,
+    0,
+    [],
+    [{"desc_id":0},{"img":"share_3"}]
+  ],
+  [
+    5,
+    0,
+    [],
+    [{"desc_id":25005},{"img":"share_success"}]
+  ],
+  [
+    11,
+    0,
+    [],
+    [{"desc_id":25006},{"img":"share_pengci"}]
+  ],
+  [
+    12,
+    0,
+    [],
+    [{"desc_id":25007},{"img":"share_saorao"}]
+  ],
+  [
+    13,
+    0,
+    [],
+    [{"desc_id":25008},{"img":"share_quantou"}]
+  ],
+  [
+    14,
+    0,
+    [],
+    [{"desc_id":25009},{"img":"share_eba"}]
+  ],
+  [
+    15,
+    0,
+    [],
+    [{"desc_id":25010},{"img":"share_laopo"}]
+  ],
+  [
+    100,
+    0,
+    [],
+    [{"desc_id":25000},{"img":"share_3"},{"desc_id":25001},{"img":"share_4"}]
+  ]
+],
+"id_list" : [1,
+2,
+3,
+4,
+5,
+11,
+12,
+13,
+14,
+15,
+100]
+}

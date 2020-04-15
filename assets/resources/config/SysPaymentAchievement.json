@@ -1,0 +1,48 @@
+{
+"key": [0],
+"cols": ["id","totalFee","wealthReward","skillNum","specialReward","slogan","sloganRes","icon","iconRes","packageName"],
+"vals": [
+  [
+    1,
+    1000,
+    {"gold":20000},
+    8,
+    {"weapon":112},
+    "slogan_1",
+    "JieMian/ShouChongLiBao",
+    "icon_1",
+    "JieMian/ShouChongLiBao",
+    "宝刀屠龙"
+  ],
+  [
+    2,
+    3000,
+    {"gold":50000},
+    18,
+    {"skill":14},
+    "slogan_2",
+    "JieMian/ShouChongLiBao",
+    "icon_2",
+    "JieMian/ShouChongLiBao",
+    "逆天技能"
+  ],
+  [
+    3,
+    8800,
+    {"gold":100000},
+    48,
+    {"skin":2},
+    "slogan_3",
+    "JieMian/ShouChongLiBao",
+    "icon_3",
+    "JieMian/ShouChongLiBao",
+    "鸡你太美"
+  ]
+],
+"fee_list" : [1000,
+3000,
+8800],
+"id_list" : [1,
+2,
+3]
+}

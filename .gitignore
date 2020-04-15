@@ -67,9 +67,9 @@ quick_gen_project_*_autogen.sh.meta
 .vscode/
 /app
 
-/assets/resources/res
-/assets/resources/config
-/assets/script/config/vo
+#/assets/resources/res
+#/assets/resources/config
+#/assets/script/config/vo
 /build-templates/jsb-default/frameworks/runtime-src/proj.android-studio/local.properties
 
 /settings/oppo-runtime.json

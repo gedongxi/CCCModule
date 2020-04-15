@@ -1,0 +1,39 @@
+{
+"key": [0],
+"cols": ["id","nameId","headIcon","vsIcon","spineHead","openState","getChannel","headId"],
+"vals": [
+  [
+    1,
+    35200,
+    "icon_1",
+    "1",
+    "wnm",
+    1,
+    "free",
+    1
+  ],
+  [
+    2,
+    35201,
+    "icon_2",
+    "2",
+    "cxk",
+    1,
+    "recharge",
+    2
+  ],
+  [
+    3,
+    35202,
+    "icon_3",
+    "3",
+    "qct",
+    1,
+    "0",
+    3
+  ]
+],
+"id_list" : [1,
+2,
+3]
+}

@@ -1,0 +1,198 @@
+{
+"key": [0],
+"cols": ["stageId","text1Id","text2Id","icon","res"],
+"vals": [
+  [
+    2,
+    33500,
+    34000,
+    "icon_pvp",
+    "JieMian/XunLian"
+  ],
+  [
+    4,
+    33501,
+    34001,
+    "icon_jianshenfang",
+    "JieMian/XunLian"
+  ],
+  [
+    5,
+    33504,
+    34004,
+    "skill_spin_kick",
+    "icon/JiNengTuBiao"
+  ],
+  [
+    6,
+    33502,
+    34002,
+    "icon_barracks",
+    "JieMian/XunLian"
+  ],
+  [
+    7,
+    33503,
+    34003,
+    "icon_chouka",
+    "JieMian/MeiRiBaoXiang"
+  ],
+  [
+    9,
+    33505,
+    34005,
+    "icon_shaolinsi",
+    "JieMian/XunLian"
+  ],
+  [
+    10,
+    33506,
+    34006,
+    "icon_mutong",
+    "JieMian/TiaoZhan"
+  ],
+  [
+    11,
+    33507,
+    34007,
+    "icon_gougou",
+    "JieMian/CaiDan"
+  ],
+  [
+    12,
+    33508,
+    34008,
+    "weaopn_16",
+    "icon/WuQi"
+  ],
+  [
+    14,
+    33510,
+    34010,
+    "icon_jiuba",
+    "JieMian/MeiRiBaoXiang"
+  ],
+  [
+    15,
+    33511,
+    34011,
+    "icon_gedang",
+    "JieMian/TiaoZhan"
+  ],
+  [
+    16,
+    33512,
+    34012,
+    "icon-talent",
+    "JieMian/XunLian"
+  ],
+  [
+    17,
+    33513,
+    34013,
+    "XinPK1",
+    "JieMian/ZhuJieMian"
+  ],
+  [
+    18,
+    33514,
+    34014,
+    "skill_army",
+    "icon/JiNengTuBiao"
+  ],
+  [
+    19,
+    33515,
+    34015,
+    "skill_fireball",
+    "icon/JiNengTuBiao"
+  ],
+  [
+    20,
+    33516,
+    34016,
+    "icon_shengcun",
+    "JieMian/TiaoZhan"
+  ],
+  [
+    21,
+    33517,
+    34017,
+    "weaopn_15",
+    "icon/WuQi"
+  ],
+  [
+    25,
+    33518,
+    34018,
+    "weaopn_14",
+    "icon/WuQi"
+  ],
+  [
+    26,
+    33519,
+    34019,
+    "skill_dart",
+    "icon/JiNengTuBiao"
+  ],
+  [
+    30,
+    33520,
+    34020,
+    "weaopn_13",
+    "icon/WuQi"
+  ],
+  [
+    35,
+    33521,
+    34021,
+    "weaopn_12",
+    "icon/WuQi"
+  ],
+  [
+    40,
+    33522,
+    34022,
+    "weaopn_11",
+    "icon/WuQi"
+  ],
+  [
+    45,
+    33523,
+    34023,
+    "weaopn_10",
+    "icon/WuQi"
+  ],
+  [
+    50,
+    33524,
+    34024,
+    "weaopn_09",
+    "icon/WuQi"
+  ]
+],
+"id_list" : [2,
+4,
+5,
+6,
+7,
+9,
+10,
+11,
+12,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+25,
+26,
+30,
+35,
+40,
+45,
+50]
+}
