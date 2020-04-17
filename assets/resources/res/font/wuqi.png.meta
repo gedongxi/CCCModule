@@ -1,13 +1,16 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.3",
   "uuid": "f6a6fbdd-089b-4edc-9cec-4495b63cabd6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
   "subMetas": {
     "wuqi": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "8b9e4d71-47cd-4833-8994-d5c7b1961419",
       "rawTextureUuid": "f6a6fbdd-089b-4edc-9cec-4495b63cabd6",
       "trimType": "auto",

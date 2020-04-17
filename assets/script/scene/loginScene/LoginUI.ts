@@ -198,7 +198,7 @@ export default class LoginUI extends BaseUI {
   }
 
   private onBtnLoginWithInput() {
-    this.test();
+    // this.test();
     const account: string = this.edbAcc.string;
     if (!account || account.length < 1) {
       GamePersist.INSTANCE.showToast("login_text10016");
@@ -260,6 +260,6 @@ export default class LoginUI extends BaseUI {
   }
 
   private test() {
-    GamePersist.INSTANCE.showWaiting();
+    // GamePersist.INSTANCE.showWaiting();
   }
 }

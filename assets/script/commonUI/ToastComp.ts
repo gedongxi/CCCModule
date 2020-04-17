@@ -33,7 +33,7 @@ export default class ToastComp extends BaseComponent {
 
   public setToastMessage(message: string) {
     this.labText.string = message;
-    this.labText._updateRenderData(true);
+    this.labText._forceUpdateRenderData();
     const textSize = this.labText.node.getContentSize();
     this.sprBG.node.setContentSize(textSize.width + 120, textSize.height + 40);
 
